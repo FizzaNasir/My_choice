@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">my_choice</string>
+    <string name="title">input the integer</string>
+    <string name="PrimeNum">It is a Prime number</string>
+    <string name="OddNum">It is an Odd number</string>
+    <string name="EvenNum">It is an Even number</string>
+    <string name="Enterint">Enter a number</string>
+    <string name="check_btn">Check</string>
+
+</resources>

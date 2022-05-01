@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#37FB8C00"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        android:background="#00FB8C00"
+        android:gravity="center"
+        android:text="@string/title"
+        android:textColor="#101317"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/user_input"
+        android:layout_width="267dp"
+        android:layout_height="85dp"
+        android:ems="10"
+        android:hint="@string/Enterint"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="#1B5E20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/Pnum"
+        android:layout_width="249dp"
+        android:layout_height="41dp"
+        android:background="#00FB8C00"
+        android:text="@string/PrimeNum"
+        android:textColor="#080809"
+        android:textColorHighlight="#3EFFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/Evnum"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_input" />
+
+    <TextView
+        android:id="@+id/Onum"
+        android:layout_width="249dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="24dp"
+        android:background="#009C27B0"
+        android:text="@string/OddNum"
+        android:textColor="#09090C"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Evnum" />
+
+    <TextView
+        android:id="@+id/Evnum"
+        android:layout_width="251dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="92dp"
+        android:background="#00FB8C00"
+        android:text="@string/EvenNum"
+        android:textColor="#090A10"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_input" />
+
+    <Button
+        android:id="@+id/check_btn"
+        android:layout_width="138dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="184dp"
+        android:backgroundTint="#66FB8C00"
+        android:text="@string/check_btn"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.901"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
